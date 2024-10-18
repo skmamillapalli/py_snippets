@@ -11,7 +11,7 @@ A = []
 def binary_search(A, l, h, ele):
     """Search for an ele and return its index if found. Else return
        the position that the ele can take in the sorted array
-       h = length of array, not highest index. """
+       h = index of last_ele + 1 """
     if(l<h):
         mid = (l + h) // 2
         if(A[mid]==ele):
